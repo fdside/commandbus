@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="0" name="org.dm.commandus.BusBuilderTest" time="0.053" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/deniss/IdeaProjects/commandbus"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="LV"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/deniss/IdeaProjects/commandbus"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/cq/gwgj1kps56l_vqll703pbh0w0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/deniss/.m2/wrapper/dists/apache-maven-3.5.4-bin/jl1qqhdeineh9qg83dtj7i91c/apache-maven-3.5.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/deniss/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/deniss/.m2/wrapper/dists/apache-maven-3.5.4-bin/jl1qqhdeineh9qg83dtj7i91c/apache-maven-3.5.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/deniss"/>
+    <property name="user.timezone" value="Europe/Riga"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="deniss"/>
+    <property name="java.class.path" value="/Users/deniss/IdeaProjects/commandbus/.mvn/wrapper/maven-wrapper.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.apache.maven.wrapper.MavenWrapperMain clean install"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/deniss/.m2/wrapper/dists/apache-maven-3.5.4-bin/jl1qqhdeineh9qg83dtj7i91c/apache-maven-3.5.4"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="handlerWithoutAdditionalParams" time="0.045"/>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="handlerWithOneAdditionalParamResolvedByTypeAndName" time="0.003"/>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="handlerWithOneAdditionalParamResolvedByType" time="0.001"/>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="handlerWithTwoAdditionalParamResolvedByTypeAndName" time="0.001"/>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="errorIfMoreThanOneCommandHandlerForCommandFound" time="0"/>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="allHandlerMethodsAreRegistered" time="0.001"/>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="errorIfValueProviderForCommandHandlerNotFound" time="0"/>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="errorIfCommandWithoutCommandHandler" time="0"/>
+  <testcase classname="org.dm.commandus.BusBuilderTest" name="middleWareExecutedInCorrectOrder" time="0.002"/>
+</testsuite>
